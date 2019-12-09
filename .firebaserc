@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "reactweb-9d3b1"
+    "default": "reactweb-9d3b1",
+    "reactweb-9d3b1": "reactweb-9d3b1"
   }
 }
