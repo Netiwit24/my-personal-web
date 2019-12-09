@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Prompt-Regular';
+  src: url('/font/Prompt-Regular.ttf')
+}
+@font-face {
+  font-family: 'Prompt-Medium';
+  src: url('/font/Prompt-Medium.ttf')
+}
+@font-face {
+  font-family: 'Prompt-Bold';
+  src: url('/font/Prompt-Bold.ttf')
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Prompt-Medium';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-color-lightGreen{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-family: 'Prompt-Regular';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  background-color: white;
+}
+
+.nav-container {
+  display: block;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.navbar-scrolled.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms;
+}
+
+.active, .nav-item-menu{
+  padding-left: 50px;
+  color: orange;
+}
+/* 
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+} */
+
+.home {
+  background-image: url('/img/home-page.jpg');
+  background-size: cover;
+  height: 800px; 
+}
+
+.home-text {
+  padding: 180px;
+}
+
+.aboutme {
+  padding: 150px;
+  height: 500px;
+}
+
+.imgProfile{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.education{
+  padding: 150px;
+  height: 400px;
+}
+
+.skills {
+  padding: 150px;
+  height: 500px;
+}
+
+.education-table {
+  width: 200px;
+}
+
+.Footer{
+height: 200px;
+background-color: black;
+text-align: center;
+
+border: 3px solid white;
 }
