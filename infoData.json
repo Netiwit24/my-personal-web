@@ -1,0 +1,74 @@
+{
+    "home" : [
+      {
+        "name": "Netiwit Keawthong",
+        "role": "I am looking for a position as Developer "
+      }
+    ],
+    "socialLinks":[
+        {
+          "name":"github",
+          "url":"https://github.com/Netiwit24"
+        },
+        {
+          "name":"facebook",
+          "url":"https://www.facebook.com/neativit.keawthong"
+        }
+      ],
+    "aboutme":"Hello, My name is Netiwit Keawthong.  I'm 23 year old. I graduated from King Mongkut's University Of Technology North Bangkok, Majoring in Information Technology. I learn about network and programing. It make me have a good skill about network system and developer. Now I'm interested in programming. I have a basic skills and I'm ready to learn if there is a chance.",
+    "education":[
+      {
+        "universityName":"King Mongkut's University of Technology North Bangkok",
+        "branch":"Information Technologyr",
+        "monthOfStart":"July",
+        "start":"2019",
+        "achievements":"Now I'm studying in Masterdegree"
+      },
+      {
+        "universityName":"King Mongkut's University of Technology North Bangkok Prachinburi Campus",
+        "branch":"Information Technologyr",
+        "monthOfStart":"June",
+        "start":"2014",
+        "achievements":"Bachelor of Technology"
+      }
+    ],
+    "work":[
+      {
+        "companyName":"nForcesecure",
+        "position":"System Engineer",
+        "monthOfStart":"July",
+        "start":"2019",
+        "jobDetail":"Get requirement, demo product, implement, support customer, troubleshoot problem"
+      }
+    ],
+    "skills":[
+      {
+        "skillname":"html5"
+      },
+      {
+        "skillname":"css3"
+      },
+      {
+        "skillname":"js"
+      },
+      {
+        "skillname":"react"
+      },
+      {
+        "skillname":"java"
+      },
+      {
+        "skillname":"android"
+      },
+      {
+        "skillname":"php"
+      }
+    ],
+    "portfolio":[
+      {
+        "name":"Personal Website",
+        "description":"Personal Website",
+        "imgurl":"images/portfolio/WebResume.jpg"
+      }
+    ]
+}
