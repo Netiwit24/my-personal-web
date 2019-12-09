@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   getResumeData(){
-    fetch('/infoData.json')
+    fetch('./infoData.json')
     .then(response => {
       return response.json()
     })
