@@ -9,12 +9,12 @@ class Skills extends Component {
         var skills = this.props.skills.map(function(skills){
             var skillsName = skills.skillname
             return <div className="row">
-            <div className="col mt-5 ml-5">
+            <div className="col mt-5 ml-5 icon">
               <FontAwesomeIcon key={skillsName} icon={['fab', skillsName]} size="4x"/>
             </div>
-            <div className="col mt-5 ml-4">
+            {/* <div className="col mt-5 ml-4">
               <h3 className="mt-4">{skillsName.toUpperCase()}</h3>
-            </div>
+            </div> */}
             </div>
           })
       }

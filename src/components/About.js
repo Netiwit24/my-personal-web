@@ -80,7 +80,7 @@ class About extends Component {
           </div>
           </section>
           <section id="work">
-          <div className="container-fluid education">
+          <div className="container-fluid work">
           <div className="row">
           <div className="col-md-3 ml-5">
           <h1>Experience Work</h1>

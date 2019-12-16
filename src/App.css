@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-container {
-  display: block;
+  /* display: block; */
   height: 50px;
   padding: 5px;
   margin-bottom: 10px;
@@ -36,18 +36,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-scrolled.scrolled {
   background-color: black !important;
-  transition: background-color 200ms;
+  transition: background-color 300ms;
+  color: red;
 }
 
 .active, .nav-item-menu{
   padding-left: 50px;
-  color: orange;
 }
 /* 
-.active, .btn:hover {
-  background-color: #666;
-  color: white;
-} */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 
 .home {
   background-image: url('https://netiwit24.github.io/my-personal-web/img/home-page.jpg');
@@ -75,19 +76,83 @@ h1, h2, h3, h4, h5, h6 {
   height: 400px;
 }
 
+.work{
+  padding: 150px;
+  height: 400px;
+}
+
+
 .skills {
   padding: 150px;
   height: 500px;
-}
-
-.education-table {
-  width: 200px;
 }
 
 .Footer{
 height: 200px;
 background-color: black;
 text-align: center;
-
 border: 3px solid white;
+}
+
+@media (min-width: 300px) {
+  .home {
+    height: 600px;
+  }
+  
+  .home-text {
+    padding: 50px;
+  }
+  
+  .aboutme {
+    padding: 30px;
+    height: 800px;
+  }
+
+  .aboutme h4{
+    font-size: 16px;
+  }
+  
+  .imgProfile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .education{
+    padding: 35px;
+    height: 500px;
+  }
+  
+  .education h4,h5{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .work{
+    padding: 35px;
+    height: 400px;
+  }
+
+  .skills {
+    padding: 35px;
+    height: 600px;
+  }
+
+  .skills h1{
+    font-size: 48px;
+  }
+
+  .skills h3{
+    font-size: 12px;
+  }
+
+
+  
+  .Footer{
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  border: 3px solid white;
+  }
 }

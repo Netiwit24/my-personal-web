@@ -9,24 +9,30 @@ class Header extends Component {
       return(
           <section id="home">
         <div className="container-fluid title home">
-           <nav className="navbar navbar-expand-sm nav-container navbar-dark bg-transparent fixed-top navbar-scrolled">
-            <ul className="navbar-nav justify-content-center">
-                <li className="nav-item nav-item-menu">
-                    <a className="nav-link active" href="#home">Home</a>
+           <nav className="navbar navbar-expand-sm nav-container navbar-dark fixed-top navbar-scrolled">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul className="navbar-nav">
+                <li className="nav-item active nav-item-menu">
+                    <a className="nav-link" href="#home">Home</a>
                 </li>
-                <li className="nav-item nav-item-menu">
-                    <a className="nav-link active" href="#about">About</a>
+                <li className="nav-item active nav-item-menu">
+                    <a className="nav-link" href="#about">About</a>
                 </li>
-                <li className="nav-item nav-item-menu">
-                    <a className="nav-link active" href="#education">Education</a>
+                <li className="nav-item active nav-item-menu">
+                    <a className="nav-link" href="#education">Education</a>
                 </li>
-                <li className="nav-item nav-item-menu">
-                    <a className="nav-link active" href="#work">Work</a>
+                <li className="nav-item active nav-item-menu">
+                    <a className="nav-link" href="#work">Work</a>
                 </li>
-                <li className="nav-item nav-item-menu">
-                    <a className="nav-link active" href="#skills">Skills</a>
+                <li className="nav-item active nav-item-menu">
+                    <a className="nav-link" href="#skills">Skills</a>
                 </li>
             </ul>
+            </div>
             </nav>
             <div className="home-text text-color-lightGreen">
             <span >Hi, My name is
