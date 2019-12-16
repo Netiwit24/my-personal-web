@@ -58,7 +58,7 @@ class About extends Component {
           </div>
           <div className="row">
           <div className="col-md-3 mt-3">
-          <img src="/img/profile.jpg" alt="Profile" className="imgProfile rounded-circle"/>
+          <img src="img/profile.jpg" alt="Profile" className="imgProfile rounded-circle"/>
           </div>
           <div className="col-md-7 ml-5 mt-5">
           <h4>{About}</h4>
