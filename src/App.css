@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Prompt-Regular';
-  src: url('/font/Prompt-Regular.ttf')
+  src: url('https://netiwit24.github.io/my-personal-web/font/Prompt-Regular.ttf')
 }
 @font-face {
   font-family: 'Prompt-Medium';
-  src: url('/font/Prompt-Medium.ttf')
+  src: url('https://netiwit24.github.io/my-personal-web/font/Prompt-Medium.ttf')
 }
 @font-face {
   font-family: 'Prompt-Bold';
-  src: url('/font/Prompt-Bold.ttf')
+  src: url('https://netiwit24.github.io/my-personal-web/font/Prompt-Bold.ttf')
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   getResumeData(){
-    fetch('/infoData.json')
+    fetch('https://netiwit24.github.io/my-personal-web/infoData.json')
     .then(response => {
       return response.json()
     })
